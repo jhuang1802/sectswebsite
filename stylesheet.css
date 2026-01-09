@@ -1,0 +1,49 @@
+body{
+    background-image:url(Images/AnimatedBackground.gif);
+}
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 4px outset black;
+    padding: 4px;
+    background-image: url(Images/AnimatedButton.gif);
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 4px double black;
+    padding: 2px;
+    background-color: white;
+}
+p{
+    border: 1px solid black;
+    padding:6px;
+    background-color: white;
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration:wavy;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration:wavy;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.underlinebold{
+  text-decoration-line: underline;
+  text-decoration-color: black;
+  font-weight: bold;
+}
+.bold{
+  font-weight: bold;
+  text-decoration: none;
+}
