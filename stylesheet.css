@@ -14,11 +14,13 @@ h2{
     border: 4px double black;
     padding: 2px;
     background-color: white;
+    margin: 10px;
 }
 p{
     border: 1px solid black;
     padding:6px;
     background-color: white;
+    margin: 10px;
 }
 a:link {
   color: black;
@@ -50,13 +52,36 @@ a:active {
   text-decoration: none;
 }
 .centered-div{
-  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .fit{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
   width: fit-content;
+}
+.dates{
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  max-width: 40rem;
+}
+.untitled{
+  width: 50rem;
+}
+
+.oldfit{
   margin-left: auto;
   margin-right: auto;
+  width: fit-content;
+}
+.highlight:hover{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  box-shadow: 10px 10px 5px black;
 }
