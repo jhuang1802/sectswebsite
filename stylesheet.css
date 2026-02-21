@@ -1,26 +1,32 @@
 body{
-    background-image:url(Images/AnimatedBackground.gif);
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: 20%;
+    background-color: lightgray;
 }
 h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border: 4px outset black;
+    font-family:sectsFont;
+    font-size: 80px;
     padding: 4px;
-    background-image: url(Images/AnimatedButton.gif);
-    margin: 10px;
+    margin: 0rem;
+    width:400px;
+    text-align: center;
 }
 
 h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:sectsFont;
     border: 4px double black;
     padding: 2px;
     background-color: white;
     margin: 10px;
 }
 p{
-    border: 1px solid black;
+    border: 2px solid black;
     padding:6px;
     background-color: white;
     margin: 10px;
+    font-family:sectsFont;
 }
 a:link {
   color: black;
@@ -56,9 +62,20 @@ a:active {
   justify-content: center;
   align-items: center;
 }
+.index-buttons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .fit{
   display: flex;
   flex-direction: column;
+  margin-right: auto;
+  width: fit-content;
+}
+.fitrow{
+  display: flex;
   margin-right: auto;
   width: fit-content;
 }
@@ -84,4 +101,13 @@ a:active {
   -webkit-transition:.5s;
   transition:.5s;
   box-shadow: 10px 10px 5px black;
+}
+
+@font-face {
+  font-family: sectsFont; /* set name */
+  src: url(Fonts/LetterGun-Regular.ttf); /* url of the font */
+}
+
+.big{
+  font-size: 100rem;
 }
