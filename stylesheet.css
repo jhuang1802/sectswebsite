@@ -7,7 +7,7 @@ body{
 }
 h1{
     font-family:sectsFont;
-    font-size: 80px;
+    font-size: 5rem;
     padding: 4px;
     margin: 0rem;
     width:400px;
@@ -16,6 +16,7 @@ h1{
 
 h2{
     font-family:sectsFont;
+    font-size: 2rem;
     border: 4px double black;
     padding: 2px;
     background-color: white;
@@ -23,6 +24,7 @@ h2{
 }
 p{
     border: 2px solid black;
+    font-size: 2rem;
     padding:6px;
     background-color: white;
     margin: 10px;
@@ -83,7 +85,7 @@ a:active {
   display: flex;
   flex-direction: column;
   margin-right: auto;
-  max-width: 40rem;
+  max-width: 50rem;
 }
 .untitled{
   width: 50rem;
