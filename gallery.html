@@ -9,9 +9,9 @@
     </head>
     <body>
         <h1 class="centered-div fit">Gallery</h1>
-        <img src="Images/streetwalking.jpg" alt="Walking on the Sidewalk" style="max-width: 30%;"><br>
+        <img onclick="myFunction()" src="Images/streetwalking.jpg" alt="Walking on the Sidewalk" style="max-width: 30%;"><br>
         <div class="fit">
-            <p>By Kian Kermani, 2026/02/21</p>
+            <p id="demo">By Kian Kermani, 2026/02/21</p>
         </div>
         <img src="Images/bandbricktown.jpg" alt="Playing at Bricktown" style="max-width: 30%;"><br>
         <div class="fit">
@@ -35,3 +35,9 @@
         </div>
         <h1 class="centered-div fit"><a href="index.html">Back Home</a></h1>
     </body>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").style.color = "red";
+        }
+    </script>
