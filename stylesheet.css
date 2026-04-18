@@ -119,3 +119,8 @@ a:active {
   font-size: 1.5rem;
   width: 350px;
 }
+
+#ypsipop .webring-info {
+   text-align:center;
+   padding-right: 30px;
+}
