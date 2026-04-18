@@ -120,6 +120,10 @@ a:active {
   width: 350px;
 }
 
+#ypsipop table {
+  background-color: beige;
+}
+
 #ypsipop .webring-info {
    text-align:center;
    padding-right: 30px;
