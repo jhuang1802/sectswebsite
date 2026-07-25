@@ -107,7 +107,7 @@ a:active {
 
 @font-face {
   font-family: sectsFont; /* set name */
-  src: url(Fonts/LetterGun-Regular.ttf); /* url of the font */
+  src: url(fonts/Lettergun-Regular.ttf); /* url of the font */
 }
 
 .big{
